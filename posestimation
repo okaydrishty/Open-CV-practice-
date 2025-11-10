@@ -10,6 +10,7 @@ mpdraw=mp.solutions.drawing_utils
 llmist=[]
 
 cap=cv2.VideoCapture(0)
+ptime=0
 while True:
     success,img=cap.read()
     imgrgb=cv2.cvtColor(img,cv2.COLOR_BGR2RGB)
